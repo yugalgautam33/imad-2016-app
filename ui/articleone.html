@@ -1,10 +1,162 @@
+<!DOCTYPE html>
 <html>
 <head>
-Article One
+	<title></title>
+
+<link href="https://fonts.googleapis.com/css?family=Frijole|Bungee+Shade" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bungee|PT+Sans|Pacifico|Poiret+One" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="C:\TheLiteraryMesh UI\animate.css">
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" type="text/css" href="C:\TheLiteraryMesh UI\jquery.fullPage.css">
+<link rel="stylesheet" type="text/css" href="C:\TheLiteraryMesh UI\examples.css">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="C:\TheLiteraryMesh UI\jquery.fullPage.js"></script>
+<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['firstPage'],
+				autoScrolling: false,
+				css3: true,
+				fitToSection: false
+			});
+		});
+	</script>
+<script type="text/javascript">
+    (function($) {
+        $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
+            {
+            height: 6000,                   // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
+            onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
+                console.log(percent);
+            }
+        });
+    }(jQuery));
+    </script>         
+
+<style type="text/css">
+	a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+
+</style>
+
+
+
+
 </head>
 <body>
-<h1>
-This is my first article.
-</h1>
-<body>
+<div class="container-fluid" style="background-color:#b2dfdb" >
+ <div id="fullpage" >
+	<div class="section">
+	<h2 style="font-family: 'Poiret One', cursive;font-size:2vw;font-weight:bold">CSRD&RS brings to you</h2>
+		<h1 class="animated jello" style="font-family: 'Bungee', cursive;font-size:11.5vw;color:
+#c67c71;text-shadow:1px black">SOCON'16</h1><br><br><br><br><br><br>
+	
+  <div class="row">
+
+      <div class="col s4 questo">
+       <a href="#about"><h2 style="font-family: 'Pacifico', cursive;font-size:3vw">About</h2></a>
+      </div>
+      <div class="col s4 questo">
+      <a href="#"><h2 style="font-family: 'Pacifico', cursive;font-size:3vw">Events</h2></a>
+      </div>
+      <div class="col s4 questo">
+      <a href="#"><h2 style="font-family: 'Pacifico', cursive;font-size:3vw">Team</h2></a>
+      </div>
+<script type="text/javascript">
+	$(function() 
+  {
+      $(".questo").mouseenter(function(event) {
+          $(this).addClass("animated shake");
+      });
+      
+      $(".questo").on("webkitAnimationEnd mozAnimationEnd oAnimationEnd animationEnd", function(event) {
+          $(this).removeClass("animated shake");
+      });
+  });
+</script>
+
+
+
+    </div>
+	
+	</div>
+</div>
+
+</div>
+
+<div class="container-fluid" id="about" style="background:url('C:\\TheLiteraryMesh UI\\tree_bark.png');text-align:center;vertical-align:middle;padding:45px">
+  <div class="row">
+    <div class="col s12 m12 l12">
+    <br>
+      <h2 class="animated jello" style="font-family: 'Bungee', cursive;font-size:6.5vw;color:
+#c62828;text-shadow:1px black">About</h2><br><br>
+    </div> 
+    
+  </div>
+   <div class="row">
+
+      <div class="col s12 m8 push-m2">
+        <div class="card" style="background-color:#f9fbe7;align:center">
+            <div class="card-image">
+              <center><img src="C:\TheLiteraryMesh UI\logonew.png" style="width:100px;height:105px;padding:10px;padding-top:20px"></center>
+              <span class="card-title"></span>
+            </div>
+            <div class="card-content">
+              <p><span style="font-family:'Scope one';color:black;font-size:18px"><b>VIT University</b> is a leading International Research University with campuses at Vellore and Chennai, Tamil Nadu, India. It has nine schools and is frequently ranked among the top technology research universities in India. Founded in 1984, as Vellore Engineering College, the institute was upgraded to a university in 2001 in recognition of its academic excellence. VIT's student strength has crossed 25000 with facu1ty complement of above 1100. It offers 18 undergraduate and 35 postgraduate programmes.</span></p>
+            </div>
+            <div class="card-action">
+              <a href="http://www.vit.ac.in/">VIT UNIVERSITY</a>
+            </div>
+          </div>
+      </div>
+      
+     
+
+    </div>
+          
+</div>
+ 
+
+           
+</div>
+
+
+
+</div>
+
+        
+</body>
 </html>
