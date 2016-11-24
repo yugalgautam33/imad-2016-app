@@ -17,6 +17,10 @@ app.get('/ui/cbpHorizontalMenu.min.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'cbpHorizontalMenu.min.js'));
 });
 
+app.get('/ui/modernizr.custom.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'modernizr.custom.js'));
+});
+
 app.get('/ui/grunge.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'grunge.png'));
 });
