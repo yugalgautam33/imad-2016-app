@@ -13,6 +13,15 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
+
+app.get('/ui/component.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'component.css'));
+});
+
+app.get('/ui/default.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'default.css'));
+});
+
 app.get('/ui/cbpHorizontalMenu.min.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'cbpHorizontalMenu.min.js'));
 });
