@@ -28,6 +28,12 @@ app.get('/ui/grunge.png', function (req, res) {
 app.get('/ui/linedpaper.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'linedpaper.png'));
 });
+
+
+app.get('/ui/facebook_circle_color-128', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'facebook_circle_color-128'));
+});
+
 app.get('/ui/plane.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'plane.png'));
 });
