@@ -98,7 +98,7 @@ a:hover {
 }
 
 .container > header nav a:hover {
-	background: white;
+	background: ghostwhite;
 }
 
 .icon-drop:before, 
@@ -120,7 +120,7 @@ a:hover {
 }
 
 .container > header nav a:hover:before {
-	color: #fff;
+	color: ghostwhite;
 }
 
 .icon-drop:before {
