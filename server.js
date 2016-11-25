@@ -30,6 +30,14 @@ app.get('/ui/modernizr.custom.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'modernizr.custom.js'));
 });
 
+app.get('/ui/jquery.fullPage.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'jquery.fullPage.css'));
+});
+
+app.get('/ui/jquery.fullPage.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'jquery.fullPage.js'));
+});
+
 app.get('/ui/grunge.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'grunge.png'));
 });
