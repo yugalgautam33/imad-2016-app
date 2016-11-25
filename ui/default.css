@@ -98,7 +98,7 @@ a:hover {
 }
 
 .container > header nav a:hover {
-	background: #47a3da;
+	background: #fafafa;
 }
 
 .icon-drop:before, 
@@ -113,7 +113,7 @@ a:hover {
 	font-weight: normal;
 	line-height: 2;
 	text-align: center;
-	color: #47a3da;
+	color: #fafafa;
 	-webkit-font-smoothing: antialiased;
 	text-indent: 8000px;
 	padding-left: 8px;
