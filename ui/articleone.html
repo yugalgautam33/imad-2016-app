@@ -1,124 +1,170 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+  <title>
+  </title>
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:600|Open+Sans|Poiret+One" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+       
+       <link rel="stylesheet" type="text/css" href="/ui/animate.css">
 
-<link href="https://fonts.googleapis.com/css?family=Frijole|Bungee+Shade" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bungee|PT+Sans|Pacifico|Poiret+One" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="/ui/animate.css" />
 
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<link rel="stylesheet" type="text/css" href="/ui/jquery.fullPage.css" />
-<link rel="stylesheet" type="text/css" href="/ui/examples.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-<script type="text/javascript" src="/ui/jquery.fullPage.js"></script>
-<script type="text/javascript">
-		$(document).ready(function() {
-			$('#fullpage').fullpage({
-				anchors: ['firstPage'],
-				autoScrolling: false,
-				css3: true,
-				fitToSection: false
-			});
-		});
-	</script>
-<script type="text/javascript">
-    (function($) {
-        $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
-            {
-            height: 6000,                   // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
-            onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
-                console.log(percent);
-            }
-        });
-    }(jQuery));
-    </script>         
+
+<link rel="stylesheet" type="text/css" href="/ui/component.css">
+  <link rel="stylesheet" type="text/css" href="/ui/default.css">
+  <script type="text/javascript" src="/ui/modernizr.custom.js"></script>
 
 <style type="text/css">
-	a:link {
-    color: black;
-    text-decoration: none;
-}
+ 
 
-/* visited link */
-a:visited {
-    color: black;
-    text-decoration: none;
-}
-
-/* mouse over link */
-a:hover {
-    color: black;
-    text-decoration: none;
-}
-
-/* selected link */
-a:active {
-    color: black;
-    text-decoration: none;
-}
-
-
-</style>
-
-
-
-
+</style>   
 </head>
 <body>
-<div class="container-fluid" style="background-color:white" >
- <div id="fullpage" >
-     <br>
-     <br>
-	<div class="section">
-	    <br>
-		<center><h1 class="animated jello" style="font-family:'Poiret One', cursive;font-size:7.5vw;color:
-black;text-shadow:1px black">THE LITERARY MESH<img class='img-responsive' src="/ui/plane.png" style="height:80px;width:180px;align:center"></h1><center></center>
+<div class="container-fluid" style="padding:50px;box-shadow: 10px 0 5px 1px #888;font-family: 'Poiret One', cursive;background-color:#D4D4D4;background-image:url('ui/grunge.png');background-repeat:repeat-x;background-opacity:4">
+  <center><h1><span style=" padding-top:100px;font-size:50px;line-height:1.1;color:black">THE LITERARY MESH</span></h1>
+ 
+ </center>
+</div>
 
 
-<br><br><br><br><br><br>
-  <div class="row">
+  
+        
+			<div class="main">
+				<div id="cbp-hrmenu" class="cbp-hrmenu" style="margin-top:1.1px">
+				    
+          <ul style="text-align:center;background-color:##ffffff;padding-top:3px">
+            <li style="background-color:##ffffff">
+              <a href="#"> <i class="small material-icons" style="color:black">toc</i>
+            </a>
+              <div class="cbp-hrsub" style="background-image:url('/ui/linedpaper.png');box-shadow: 10px 0 5px 1px #888;">
+                <div style="padding:30px"> 
+                  <div style="position:center">
+                    <h4 style="color:black">Prose</h4>
+                    <ul style="line-height:2;background-color:transparent">
+                      <li ><a href="#"><span style="color:black;background-color:#fafafa">Half an hour to 1200AM</span></a></li>
+                    
+                    </ul>
+                    <h4 style="color:black">Poetry</h4>
+                    <ul style="line-height:2;">
+                      <li><a href="#"><span style="background-color:transparent;color:black;background-color:#fafafa">Departures</span></a></li>
+                    
+                    </ul><br>
+                    <img src="/ui/plane.png" style="height:80px;width:200px;opacity:0.7;align:center">
+                  </div>
+                 </div>
+                 </div>
+            </li>
+            
+            
+            
+          </ul>
+        </div>
+    
 
-      <div class="col s4 questo">
-       <a href="#about"><h2 style="font-family: 'Pacifico', cursive;font-size:3vw">About</h2></a>
-      </div>
-        <div class="col s4 questo">
-       <a href="#about"><h2 style="font-family: 'Pacifico', cursive;font-size:3vw"></h2></a>
-      </div>
-      <div class="col s4 questo">
-      <a href="#"><h2 style="font-family: 'Pacifico', cursive;font-size:3vw">Blog</h2></a>
-      </div>
-      </div>
-<script type="text/javascript">
-	$(function() 
-  {
-      $(".questo").mouseenter(function(event) {
-          $(this).addClass("animated shake");
-      });
-      
-      $(".questo").on("webkitAnimationEnd mozAnimationEnd oAnimationEnd animationEnd", function(event) {
-          $(this).removeClass("animated shake");
-      });
-  });
-</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="/ui/cbpHorizontalMenu.min.js"></script>
+		<script>
+			$(function() {
+				cbpHorizontalMenu.init();
+			});
+		</script>
+
+
+ 
 
 
 
- </div>
- </div>
- </div>
+  
+ <div class="contaier-fluid" style="background-color:#ffffff">
+   
+  
 
 
+
+<div class="row" style="padding:50px;align:center">
+  <div class="col s6">
+       <h1 style="font-family: 'Josefin Sans', sans-serif;font-size:60px;color:black"><b>Departures.</b></h1>
+     </div>
+     <div class="row">
+      <div class="col s12 m7" style="font-family: 'Open Sans', sans-serif;font-size:16px;float:left;color:black;">
+
+<p>If you were a branch,</p>
+<p>I would be this leaf,<br />clinging loosely to one of your nodes.</p>
+<div class="text_exposed_show">
+<p>Holding on,<em>&nbsp;still</em>.<br />Against the sudden gust and the kiss of gravity.</p>
+<p>Trying not to feed my vulnerability,<br />so as to sustain our little connection.</p>
+<p>But it was the season of fall.</p>
+<p>So, I had to let go,<br />for you to survive<br />the&nbsp;<strong>winters</strong>.</p>
+</div> 
+    
+     </div>
+     
+    
+
+   </div>
+</div>
+
+<div class="row" >
+<div class="col s12 animated slideInLeft"  style="font-family: 'Open Sans', sans-serif;font-size:16px;background-color:#E4F1FE;color:black">
+  <blockquote>
+   <p><em>Worst is getting stuck in a traffic jam</em><br /><em>on a highway of confusion,</em><br /><em>When your explanations have to stand in a queue&nbsp;</em><br /><em>waiting for clearance.</em></p>
+<div class="text_exposed_show">
+<p><em>And amidst these honks full of hate,</em><br /><em>And air so thick,</em><br /><em>I&rsquo;d rather let my patience out.</em></p>
+<p><em>There&rsquo;s no absolute need for hunting reasons to fit an empty apology.</em><br /><em>No meaning could ever be found in rupturing your own organics,&nbsp;</em><br /><em>out of an unexplainable itch for saving the day.</em></p>
+<p><em>Much has already been dissolved in so less of it.</em></p>
+<p><em>I see a saturated solution,&nbsp;</em><br /><em>still trying to stir itself,</em><br /><em>and<strong> settle</strong>.</em></p>
+</div>
+  </blockquote>
+</div>     
+    
+</div>  
+
+<div class="row" style="padding:50px;align:center">
+  <div class="col s12">
+    <h1  style="font-family: 'Josefin Sans', sans-serif;font-size:60px;color:black">Half an hour to 1200AM.</h1>
+  </div>
+  <div class="col m9 s12" style="font-family: 'Open Sans', sans-serif;font-size:16px;color:black">
+    <div class="_2cuy _3dgx _2vxa">
+<p>And there I was, lying on my bed, staring at the top and trying to catch with the pace of one of the revolving blades of my ceiling fan.</p>
+<p>Half an hour to 1200AM, I confirmed as I made an eye contact with my phone&rsquo;s screen. It would be an end of a tiresome day and I still don&rsquo;t blame the practice sessions for the guard of honour which was to be performed on the coming Independence day. It wasn&rsquo;t that. Neither it was about tomorrow.</p>
+<p>It was just a 10 digit number on a screen ready to be dialled. And, exactly half an hour from now it was going to lose its meaning.</p>
+<p>A year back, the same day wasn&rsquo;t the same. A Birthday, of someone somewhere far away was being missed. And, with the whole three months of break and rehabilitation, I was still new to the process of keeping up with everyday.</p>
+<p>It was uneasy, but maybe I could trust the different versions of me trying to fit a justification in a void of dilemma and confusion, reminding me of these happy facebook posts that I&rsquo;ve been reading on her timeline throughout the day.</p>
+<p>We weren&rsquo;t friends on facebook. But maybe, that was something different altogether.</p>
+<p>&ldquo;What if I just skip it?&rdquo;</p>
+<p>Maybe, it was for the best. And this is how the story should&rsquo;ve ended.<br />But on being carefully dissected, things didn&rsquo;t seem to be fair this way. So, I finally picked up the phone and dialled. A small ring was followed by a mechanised voice telling me that the number was busy. I tried it again, and could still hear a ring just before the message.</p>
+<p>My number was blocked.</p>
+<p>So, I took a deep breath, and started arranging my bed to sleep. I knew it would be a lot more difficult now. But, I was finally through with my state of confusion.<br />I rested my head on the pillow and wrapped myself with a newly dry cleaned blanket, tried to shut my eyes thinking that would help making things appear bit more darker than the room itself. I wasn&rsquo;t thinking anymore but I was clearly full of questions that would never seek their answers.<br />But it was then when I felt my phone vibrating. It was ringing. The number wasn&rsquo;t saved but I clearly remembered the order to put zeros and nines and ones and twos that would finally end up making her contact number .<br />It was 1158 at night.So, I immediately picked it up.</p>
+<p>There was a small pause in the beginning.<br />But, it wasn&rsquo;t late enough to wish her a &ldquo;Happy Birthday.&rdquo;.</p>
+</div>
+<div class="text_exposed_show">&nbsp;</div>
+  </div>
+ 
+</div>
+
+
+  <footer class="page-footer" style="background-color:#E4F1FE;background-image: url('imad-2016-app/ui/grunge.png')">
+         
+          <div class="footer-copyright">
+            <div class="container">
+            <a href="https://www.facebook.com/theliterarymesh33"><img src="/ui/facebook_circle_color-128.png" style="width:30px;height:30px"></a>
+            <a class="grey-text text-lighten-4 right" href="#!"><span style="color:black;font-family: 'Josefin Sans', sans-serif;font-size:18px"> Yugal Gautam | 2016</span></a>
+            </div>
+          </div>
+        </footer>
+            
+</div>
+</div>
 </body>
 </html>
